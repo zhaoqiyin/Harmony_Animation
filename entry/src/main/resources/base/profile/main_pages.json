@@ -1,5 +1,13 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/AnimationPage",
+    "pages/AnimateToPage",
+    "pages/MotionPathPage",
+    "pages/TransitionPage",
+    "pages/BindContentCoverPage",
+    "pages/ParticlePage",
+    "pages/GifImagePage",
+    "pages/LottieImagePage"
   ]
 }
