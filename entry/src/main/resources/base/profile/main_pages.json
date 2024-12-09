@@ -8,6 +8,8 @@
     "pages/BindContentCoverPage",
     "pages/ParticlePage",
     "pages/GifImagePage",
-    "pages/LottieImagePage"
+    "pages/LottieImagePage",
+    "pages/SvgaPage",
+    "pages/FrameAnimatorPage"
   ]
 }

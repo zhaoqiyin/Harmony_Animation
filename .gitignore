@@ -10,3 +10,5 @@
 /.clang-tidy
 **/.test
 /.appanalyzer
+/entry/src/main/resources/.DS_Store
+/entry/src/main/resources/base/.DS_Store

@@ -29,19 +29,19 @@ struct ParticleExample {
           })
         })
         .margin({top: "20vp"})
-      Button("路径动画")
+      Button("转场动画")
         .onClick(() => {
           router.pushUrl({
-            url: "pages/MotionPathPage"
+            url: "pages/TransitionPage"
           }).catch((error: Error) => {
             hilog.info(0xFF00, "" + error.message, this.format);
           })
         })
         .margin({top: "20vp"})
-      Button("转场动画")
+      Button("路径动画")
         .onClick(() => {
           router.pushUrl({
-            url: "pages/TransitionPage"
+            url: "pages/MotionPathPage"
           }).catch((error: Error) => {
             hilog.info(0xFF00, "" + error.message, this.format);
           })
@@ -74,6 +74,15 @@ struct ParticleExample {
           })
         })
         .margin({top: "20vp"})
+      Button("帧动画")
+        .onClick(() => {
+          router.pushUrl({
+            url: "pages/FrameAnimatorPage"
+          }).catch((error: Error) => {
+            hilog.info(0xFF00, "" + error.message, this.format);
+          })
+        })
+        .margin({top: "20vp"})
       Button("lottie动画")
         .onClick(() => {
           router.pushUrl({
@@ -83,15 +92,15 @@ struct ParticleExample {
           })
         })
         .margin({top: "20vp"})
-      // Button("svga动画")
-      //   .onClick(() => {
-      //     router.pushUrl({
-      //       url: "pages/SvgaPage"
-      //     }).catch((error: Error) => {
-      //       hilog.info(0xFF00, "" + error.message, this.format);
-      //     })
-      //   })
-      //   .margin({top: "20vp"})
+      Button("svga动画")
+        .onClick(() => {
+          router.pushUrl({
+            url: "pages/SvgaPage"
+          }).catch((error: Error) => {
+            hilog.info(0xFF00, "" + error.message, this.format);
+          })
+        })
+        .margin({top: "20vp"})
     }
     .alignItems(HorizontalAlign.Center)
     .width("100%")
