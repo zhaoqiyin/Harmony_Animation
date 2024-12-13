@@ -6,7 +6,7 @@ import TitleBarComponent from '../view/TitleBarComponent'
 struct ParticlePage {
   build() {
     Column() {
-      TitleBarComponent({ title: "转场动画" })
+      TitleBarComponent({ title: "粒子动画" })
       Stack() {
         Text()
           .width(300).height(300).backgroundColor(Color.Black)

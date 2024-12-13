@@ -38,19 +38,19 @@ struct ParticleExample {
           })
         })
         .margin({top: "20vp"})
-      Button("路径动画")
+      Button("模态转场")
         .onClick(() => {
           router.pushUrl({
-            url: "pages/MotionPathPage"
+            url: "pages/BindContentCoverPage"
           }).catch((error: Error) => {
             hilog.info(0xFF00, "" + error.message, this.format);
           })
         })
         .margin({top: "20vp"})
-      Button("模态转场")
+      Button("路径动画")
         .onClick(() => {
           router.pushUrl({
-            url: "pages/BindContentCoverPage"
+            url: "pages/MotionPathPage"
           }).catch((error: Error) => {
             hilog.info(0xFF00, "" + error.message, this.format);
           })
@@ -92,7 +92,16 @@ struct ParticleExample {
           })
         })
         .margin({top: "20vp"})
-      Button("svga动画")
+      Button("Svg")
+        .onClick(() => {
+          router.pushUrl({
+            url: "pages/SvgPage"
+          }).catch((error: Error) => {
+            hilog.info(0xFF00, "" + error.message, this.format);
+          })
+        })
+        .margin({top: "20vp"})
+      Button("svga")
         .onClick(() => {
           router.pushUrl({
             url: "pages/SvgaPage"

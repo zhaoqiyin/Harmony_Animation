@@ -10,6 +10,7 @@
     "pages/GifImagePage",
     "pages/LottieImagePage",
     "pages/SvgaPage",
-    "pages/FrameAnimatorPage"
+    "pages/FrameAnimatorPage",
+    "pages/SvgPage"
   ]
 }
